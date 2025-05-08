@@ -1,0 +1,64 @@
+{
+  "avsAddress": "0xD4A7E1Bd8015057293f0D0A557088c286942e84b",
+  "chainId": 17000,
+  "contractDeployments": {
+    "implementation": {
+      "liquidTokenManager": {
+        "address": "0x68bE12EEC2A499ac92eb0d3F9E644cD7CBb84A5A",
+        "block": 3803320,
+        "timestamp": 1746708852000
+      },
+      "stakerNode": {
+        "address": "0x4cfeC503b08D8567a063cD65A4e29d961E10945b",
+        "block": 3803320,
+        "timestamp": 1746708852000
+      },
+      "stakerNodeCoordinator": {
+        "address": "0x34249EB909C54c58fC6c8217bc291CFf3f4D0507",
+        "block": 3803320,
+        "timestamp": 1746708852000
+      },
+      "tokenRegistryOracle": {
+        "address": "0xc56150AF38E93d009B1f3367AE8ba10CfC5b7e48",
+        "block": 3803320,
+        "timestamp": 1746708852000
+      }
+    },
+    "proxy": {
+      "liquidTokenManager": {
+        "address": "0x1e520f3d7817a2a35AE7e9715d6ac32A321e4dcA",
+        "block": 3803320,
+        "timestamp": 1746708852000
+      },
+      "stakerNodeCoordinator": {
+        "address": "0xA832c95b3e5051887603ceEf4Bd36CE2BB451a81",
+        "block": 3803320,
+        "timestamp": 1746708852000
+      },
+      "tokenRegistryOracle": {
+        "address": "0x4A3eD744890f106463cD1f4E80a9BBc46f138FD1",
+        "block": 3803320,
+        "timestamp": 1746708852000
+      }
+    }
+  },
+  "deploymentBlock": 3803320,
+  "deploymentTimestamp": 1746708852000,
+  "implementationAddress": "0x23B8171e7907AdE09451cAC0F954F73Ec7b9d77F",
+  "maxNodes": 10,
+  "name": "EigenDA Native Liquid Avs Token",
+  "proxyAddress": "0xBAa09028e0e12546C2eB96AA954525d042Dd6e70",
+  "roles": {
+    "admin": "0xfB069FF1d105F4B33Ffad1c0d1aeC08D379FC715",
+    "deployer": "0x97F7Ac1d4364Fc14597E5443956fDAD6B3857591",
+    "pauser": "0xfB069FF1d105F4B33Ffad1c0d1aeC08D379FC715",
+    "priceUpdater": "0xfB069FF1d105F4B33Ffad1c0d1aeC08D379FC715"
+  },
+  "symbol": "xEigenDA",
+  "tokens": {
+    "0": {
+      "address": "0x275cCf9Be51f4a6C94aBa6114cdf2a4c45B9cb27",
+      "strategy": "0x43252609bff8a13dFe5e057097f2f45A24387a84"
+    }
+  }
+}
