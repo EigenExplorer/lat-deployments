@@ -1,0 +1,80 @@
+{
+  "avsAddress": "0xD4A7E1Bd8015057293f0D0A557088c286942e84b",
+  "chainId": 17000,
+  "contractDeployments": {
+    "implementation": {
+      "liquidTokenManager": {
+        "address": "0xc3494A809e9aFCF63A2f48D7FADde80ae6697214",
+        "block": 3803278,
+        "timestamp": 1746708192000
+      },
+      "stakerNode": {
+        "address": "0x1d4c6D1CeCccb3Ab044d38EE35754d88F6EF50EC",
+        "block": 3803278,
+        "timestamp": 1746708192000
+      },
+      "stakerNodeCoordinator": {
+        "address": "0x8B70806f355dC4f884597906d95A6587303752C2",
+        "block": 3803278,
+        "timestamp": 1746708192000
+      },
+      "tokenRegistryOracle": {
+        "address": "0x351f44DAA66d88C2623925993183e391199f16f8",
+        "block": 3803278,
+        "timestamp": 1746708192000
+      }
+    },
+    "proxy": {
+      "liquidTokenManager": {
+        "address": "0x2008757Ec495115a6846234a8Be19971bA90b32c",
+        "block": 3803278,
+        "timestamp": 1746708192000
+      },
+      "stakerNodeCoordinator": {
+        "address": "0xBda2c850064Af30a568786E58bC8e14403f497e3",
+        "block": 3803278,
+        "timestamp": 1746708192000
+      },
+      "tokenRegistryOracle": {
+        "address": "0xE778ddeE6357b454d530237CBAAd6811Ccbd42F9",
+        "block": 3803278,
+        "timestamp": 1746708192000
+      }
+    }
+  },
+  "deploymentBlock": 3803278,
+  "deploymentTimestamp": 1746708192000,
+  "implementationAddress": "0x7b8b0Bd05DFCdff1613DD8339776e14B53B0d5bd",
+  "maxNodes": 10,
+  "name": "EigenDA-ETH Liquid Avs Token",
+  "proxyAddress": "0xE753b2b9C0bf187Ea005a43D079a634D1000C494",
+  "roles": {
+    "admin": "0xfB069FF1d105F4B33Ffad1c0d1aeC08D379FC715",
+    "deployer": "0x599Acd4bE34308fC19e0E06658e8a10C93F1eB5d",
+    "pauser": "0xfB069FF1d105F4B33Ffad1c0d1aeC08D379FC715",
+    "priceUpdater": "0xfB069FF1d105F4B33Ffad1c0d1aeC08D379FC715"
+  },
+  "symbol": "xEigenDA-ETH",
+  "tokens": {
+    "0": {
+      "address": "0x3F1c547b21f65e10480dE3ad8E19fAAC46C95034",
+      "strategy": "0x7D704507b76571a51d9caE8AdDAbBFd0ba0e63d3"
+    },
+    "1": {
+      "address": "0x7322c24752f79c05FFD1E2a6FCB97020C1C264F1",
+      "strategy": "0x3A8fBdf9e77DFc25d09741f51d3E181b25d0c4E0"
+    },
+    "2": {
+      "address": "0x1d8b30cC38Dba8aBce1ac29Ea27d9cFd05379A09",
+      "strategy": "0x05037A81BD7B4C9E0F7B430f1F2A22c31a2FD943"
+    },
+    "3": {
+      "address": "0xa63f56985F9C7F3bc9fFc5685535649e0C1a55f3",
+      "strategy": "0x9281ff96637710Cd9A5CAcce9c6FAD8C9F54631c"
+    },
+    "4": {
+      "address": "0x8783C9C904e1bdC87d9168AE703c8481E8a477Fd",
+      "strategy": "0x7673a47463F80c6a3553Db9E54c8cDcd5313d0ac"
+    }
+  }
+}
