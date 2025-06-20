@@ -1,0 +1,65 @@
+{
+  "avsAddress": "0xD4A7E1Bd8015057293f0D0A557088c286942e84b",
+  "baseAsset": "0x3B78576F7D6837500bA3De27A60c7f594934027E",
+  "chainId": 17000,
+  "contractDeployments": {
+    "implementation": {
+      "liquidTokenManager": {
+        "address": "0x8D84371Df16daEdFA41c2e28c35823F9fb08Cc0f",
+        "block": 4033332,
+        "timestamp": 1750408368000
+      },
+      "stakerNode": {
+        "address": "0xD47bD32be70f27db9ECf73c9d741Ab8E8Bc7e6A3",
+        "block": 4033332,
+        "timestamp": 1750408368000
+      },
+      "stakerNodeCoordinator": {
+        "address": "0xF1d5f5ceAA089B9C3051536b45d2b4B154680708",
+        "block": 4033332,
+        "timestamp": 1750408368000
+      },
+      "tokenRegistryOracle": {
+        "address": "0xE76E866820516252E40A297b533297D553D41e75",
+        "block": 4033332,
+        "timestamp": 1750408368000
+      }
+    },
+    "proxy": {
+      "liquidTokenManager": {
+        "address": "0xe745B23694d2756A507263E3668037c30fD30409",
+        "block": 4033332,
+        "timestamp": 1750408368000
+      },
+      "stakerNodeCoordinator": {
+        "address": "0xFA8EcF25103B4e8a9fc5a98A874b67527D2c5B45",
+        "block": 4033332,
+        "timestamp": 1750408368000
+      },
+      "tokenRegistryOracle": {
+        "address": "0xBe64A7C3a1c02794260Fbb3eBC7ece2e573E23ef",
+        "block": 4033332,
+        "timestamp": 1750408368000
+      }
+    }
+  },
+  "deploymentBlock": 4033332,
+  "deploymentTimestamp": 1750408368000,
+  "implementationAddress": "0x428c06F61E24cDaaF70eE5de916aFb54ea84657A",
+  "maxNodes": 10,
+  "name": "EigenDA Native Liquid Avs Token",
+  "proxyAddress": "0xFBc8CFD25687bacE602aDBD54240F86bc5A175D9",
+  "proxyAdminAddress": "0x35C6614780245727f926D967c0DD766E8A1040f5",
+  "roles": {
+    "admin": "0xfB069FF1d105F4B33Ffad1c0d1aeC08D379FC715",
+    "pauser": "0xfB069FF1d105F4B33Ffad1c0d1aeC08D379FC715",
+    "priceUpdater": "0xfB069FF1d105F4B33Ffad1c0d1aeC08D379FC715"
+  },
+  "symbol": "xEigenDA",
+  "tokens": {
+    "0": {
+      "address": "0x3B78576F7D6837500bA3De27A60c7f594934027E",
+      "strategy": "0x43252609bff8a13dFe5e057097f2f45A24387a84"
+    }
+  }
+}
