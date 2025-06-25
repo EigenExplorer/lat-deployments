@@ -1,0 +1,101 @@
+{
+    "avsAddress": "0x22CAc0e6A1465F043428e8AeF737b3cb09D0eEDa",
+    "baseAsset": "0xbeaC0eeEeeeeEEeEeEEEEeeEEeEeeeEeeEEBEaC0",
+    "chainId": 1,
+    "contractDeployments": {
+      "implementation": {
+        "liquidTokenManager": {
+          "address": "0xfF2dBF1AA74632a93769361AE3087bFeF1fb5553",
+          "block": 22772536,
+          "timestamp": 1750746959000
+        },
+        "stakerNode": {
+          "address": "0xD28b267A9811804f3Fd0cF899be3e9a7CA72DdF7",
+          "block": 22772536,
+          "timestamp": 1750746959000
+        },
+        "stakerNodeCoordinator": {
+          "address": "0xD2f40B141571C8Cd45c10e57EC8E84a745d41ceb",
+          "block": 22772536,
+          "timestamp": 1750746959000
+        },
+        "tokenRegistryOracle": {
+          "address": "0x1414a31C6CCC5412d0b2c14582AdD1df3c71D624",
+          "block": 22772536,
+          "timestamp": 1750746959000
+        }
+      },
+      "proxy": {
+        "liquidTokenManager": {
+          "address": "0x108cC93F4762666a3BBF97f26eB9DE3A5CE1d3da",
+          "block": 22772536,
+          "timestamp": 1750746959000
+        },
+        "stakerNodeCoordinator": {
+          "address": "0xdb293C88A09dFFD25458Ba8047f067685e90c747",
+          "block": 22772536,
+          "timestamp": 1750746959000
+        },
+        "tokenRegistryOracle": {
+          "address": "0xFB36BDcC47a9864088FDFd29176d5d9460C30FF1",
+          "block": 22772536,
+          "timestamp": 1750746959000
+        }
+      }
+    },
+    "deploymentBlock": 22772536,
+    "deploymentTimestamp": 1750746959000,
+    "implementationAddress": "0xD77A83Ae83b00b61F07Dd5b02dbEd22bAb0811C8",
+    "maxNodes": 10,
+    "name": "Lagrange ETH Liquid Avs Token",
+    "proxyAddress": "0xb14B3Fc343A8fBEa09C72877C7f1596c0Ab0e862",
+    "proxyAdminAddress": "0x84C824eB606a0060A8247E80965D431311892716",
+    "roles": {
+      "admin": "0xba375CAe9cEd62E5C2762F84ed324aef52486651",
+      "pauser": "0x60DB8De9a6705c9B36dcE25D631C5EAc0Ac24F4c",
+      "priceUpdater": "0xba375CAe9cEd62E5C2762F84ed324aef52486651"
+    },
+    "symbol": "xLagrange-ETH",
+    "tokens": {
+      "0": {
+        "address": "0xbeaC0eeEeeeeEEeEeEEEEeeEEeEeeeEeeEEBEaC0",
+        "strategy": "0xbeaC0eeEeeeeEEeEeEEEEeeEEeEeeeEeeEEBEaC0"
+      },
+      "1": {
+        "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+        "strategy": "0x1BeE69b7dFFfA4E2d53C2a2Df135C388AD25dCD2"
+      },
+      "2": {
+        "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "strategy": "0x93c4b944D05dfe6df7645A86cd2206016c51564D"
+      },
+      "3": {
+        "address": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+        "strategy": "0x54945180dB7943c0ed0FEE7EdaB2Bd24620256bc"
+      },
+      "4": {
+        "address": "0xd5F7838F5C461fefF7FE49ea5ebaF7728bB0ADfa",
+        "strategy": "0x298aFB19A105D59E74658C4C334Ff360BadE6dd2"
+      },
+      "5": {
+        "address": "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
+        "strategy": "0x9d7eD45EE2E8FC5482fa2428f15C971e6369011d"
+      },
+      "6": {
+        "address": "0xf951E335afb289353dc249e82926178EaC7DEd78",
+        "strategy": "0x0Fe4F44beE93503346A3Ac9EE5A26b130a5796d6"
+      },
+      "7": {
+        "address": "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb",
+        "strategy": "0x13760F50a9d7377e4F20CB8CF9e4c26586c658ff"
+      },
+      "8": {
+        "address": "0xa2E3356610840701BDf5611a53974510Ae27E2e1",
+        "strategy": "0x7CA911E83dabf90C90dD3De5411a10F1A6112184"
+      },
+      "9": {
+        "address": "0xac3E018457B222d93114458476f3E3416Abbe38F",
+        "strategy": "0x8CA7A5d6f3acd3A7A8bC468a8CD0FB14B6BD28b6"
+      }
+    }
+  }
