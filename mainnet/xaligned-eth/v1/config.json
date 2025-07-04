@@ -88,24 +88,6 @@
             }
         },
         {
-            "name": "osETH",
-            "addresses": {
-                "token": "0x0C4576Ca1c365868E162554AF8e385dc3e7C66D9",
-                "strategy": "0x57ba429517c3473b6d34ca9acd56c0e735b94c02"
-            },
-            "params": {
-                "volatilityThreshold": "50000000000000000",
-                "decimals": 18
-            },
-            "oracle": {
-                "sourceType": 2,
-                "primarySource": "0xe080027Bd47353b5D1639772b4a75E9Ed3658A0d",
-                "needsArg": 1,
-                "fallbackSource": "0x2A261e60FB14586B474C208b1B7AC6D0f5000306",
-                "fallbackSelector": "0x07a2d13a"
-            }
-        },
-        {
             "name": "ETHx",
             "addresses": {
                 "token": "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
