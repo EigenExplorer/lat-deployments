@@ -1,0 +1,77 @@
+{
+    "avsAddress": "0xf6f4a30eef7cf51ed4ee1415fb3bfdaf3694b0d2",
+    "baseAsset": "0xbeac0eeeeeeeeeeeeeeeeeeeeeeeeeeeeeebeac0",
+    "chainId": 1,
+    "name": "Predicate ETH Liquid Avs Token",
+    "symbol": "xPredicate-ETH",
+    "proxyAddress": "0x0041fE28ba1A0DB16C15A054f9dC520B02dc3A33",
+    "implementationAddress": "0x2942A0fCCf76302b11b160e49eB80bA73E961cc7",
+    "proxyAdminAddress": "0x8b7a69a37918bD6133c475B3EAB425cD4E0Ffa7E",
+    "maxNodes": 10,
+    "deploymentBlock": 22844912,
+    "deploymentTimestamp": 1751620728839,
+    "contractDeployments": {
+      "implementation": {
+        "liquidTokenManager": {
+          "address": "0x6D912aA89cEb4F9bFFfc9529F44d038CDF8EEf20",
+          "block": 22844901,
+          "timestamp": 1751620601649
+        },
+        "stakerNode": {
+          "address": "0xbd4bBb89D903Ca2E16b6f79199bF9f7B17B3EFc9",
+          "block": 22844904,
+          "timestamp": 1751620626673
+        },
+        "stakerNodeCoordinator": {
+          "address": "0xD9DDcC373B47FDcfa43c80b613735D9e706aa2c0",
+          "block": 22844903,
+          "timestamp": 1751620614230
+        },
+        "tokenRegistryOracle": {
+          "address": "0x8C0f8e204E24bda7391F4292B56322A82e1A6b66",
+          "block": 22844899,
+          "timestamp": 1751620580734
+        }
+      },
+      "proxy": {
+        "liquidTokenManager": {
+          "address": "0x2ef31bD73025Ed20AA79a316D77399D146f71347",
+          "block": 22844906,
+          "timestamp": 1751620650652
+        },
+        "stakerNodeCoordinator": {
+          "address": "0x9e7DabB9EbB7B3b5d9770107ce8Ea9CC4BF9d1aC",
+          "block": 22844907,
+          "timestamp": 1751620662593
+        },
+        "tokenRegistryOracle": {
+          "address": "0x422C97B346a5B10293A6DB6bde35369F4A7215A8",
+          "block": 22844905,
+          "timestamp": 1751620638106
+        }
+      }
+    },
+    "roles": {
+      "admin": "0xba375CAe9cEd62E5C2762F84ed324aef52486651",
+      "pauser": "0x60DB8De9a6705c9B36dcE25D631C5EAc0Ac24F4c",
+      "priceUpdater": "0xba375CAe9cEd62E5C2762F84ed324aef52486651"
+    },
+    "tokens": {
+      "0": {
+        "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+        "strategy": "0x1bee69b7dfffa4e2d53c2a2df135c388ad25dcd2"
+      },
+      "1": {
+        "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "strategy": "0x93c4b944d05dfe6df7645a86cd2206016c51564d"
+      },
+      "2": {
+        "address": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+        "strategy": "0x54945180db7943c0ed0fee7edab2bd24620256bc"
+      },
+      "3": {
+        "address": "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
+        "strategy": "0x9d7ed45ee2e8fc5482fa2428f15c971e6369011d"
+      }
+    }
+  }

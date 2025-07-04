@@ -1,0 +1,105 @@
+{
+  "avsAddress": "0x71a77037870169d47aad6c2c9360861a4c0df2bf",
+  "baseAsset": "0xbeac0eeeeeeeeeeeeeeeeeeeeeeeeeeeeeebeac0",
+  "chainId": 1,
+  "name": "AltLayer ETH Liquid Avs Token",
+  "symbol": "xAltLayer-ETH",
+  "proxyAddress": "0xE49Ae3b87a693Ba6e972aF361aEAdA27Bce8fFa7",
+  "implementationAddress": "0xc050DD117a6432AB69d7b096D9D7d3057cCEdBFA",
+  "proxyAdminAddress": "0xcd13c5a718c0f99BAB6A5b1Ae128b1ec1CF6bb50",
+  "maxNodes": 10,
+  "deploymentBlock": 22844045,
+  "deploymentTimestamp": 1751610297346,
+  "contractDeployments": {
+    "implementation": {
+      "liquidTokenManager": {
+        "address": "0x37A161CfE06Ac3733533408a8BAE51238099C9FA",
+        "block": 22844032,
+        "timestamp": 1751610139167
+      },
+      "stakerNode": {
+        "address": "0xB883A5ad574051fadd844d2aA9d46d8504FFE7F0",
+        "block": 22844035,
+        "timestamp": 1751610160590
+      },
+      "stakerNodeCoordinator": {
+        "address": "0x8C524128520Bf49dC02A1884496295A42a36758D",
+        "block": 22844033,
+        "timestamp": 1751610148055
+      },
+      "tokenRegistryOracle": {
+        "address": "0x1d8f7dBdb57E543a49670e7aBf2A167F1dc32897",
+        "block": 22844030,
+        "timestamp": 1751610110700
+      }
+    },
+    "proxy": {
+      "liquidTokenManager": {
+        "address": "0x0f7a8F584Eecd0c0846c7f1a953E5810Ab0d0ad8",
+        "block": 22844037,
+        "timestamp": 1751610186567
+      },
+      "stakerNodeCoordinator": {
+        "address": "0xC85C087a7EF91CD1f4217d4a8Ee83d12d759C497",
+        "block": 22844038,
+        "timestamp": 1751610199437
+      },
+      "tokenRegistryOracle": {
+        "address": "0x7A89fc8Cfa474A5B249C50986aaB927F2d2Fc968",
+        "block": 22844036,
+        "timestamp": 1751610174112
+      }
+    }
+  },
+  "roles": {
+    "admin": "0xba375CAe9cEd62E5C2762F84ed324aef52486651",
+    "pauser": "0x60DB8De9a6705c9B36dcE25D631C5EAc0Ac24F4c",
+    "priceUpdater": "0xba375CAe9cEd62E5C2762F84ed324aef52486651"
+  },
+  "tokens": {
+    "0": {
+      "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+      "strategy": "0x1bee69b7dfffa4e2d53c2a2df135c388ad25dcd2"
+    },
+    "1": {
+      "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+      "strategy": "0x93c4b944d05dfe6df7645a86cd2206016c51564d"
+    },
+    "2": {
+      "address": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+      "strategy": "0x54945180db7943c0ed0fee7edab2bd24620256bc"
+    },
+    "3": {
+      "address": "0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa",
+      "strategy": "0x298afb19a105d59e74658c4c334ff360bade6dd2"
+    },
+    "4": {
+      "address": "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
+      "strategy": "0x9d7ed45ee2e8fc5482fa2428f15c971e6369011d"
+    },
+    "5": {
+      "address": "0xf951E335afb289353dc249e82926178EaC7DEd78",
+      "strategy": "0x0fe4f44bee93503346a3ac9ee5a26b130a5796d6"
+    },
+    "6": {
+      "address": "0x8c1BEd5b9a0928467c9B1341Da1D7BD5e10b6549",
+      "strategy": "0xae60d8180437b5c34bb956822ac2710972584473"
+    },
+    "7": {
+      "address": "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb",
+      "strategy": "0x13760f50a9d7377e4f20cb8cf9e4c26586c658ff"
+    },
+    "8": {
+      "address": "0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3",
+      "strategy": "0xa4c637e0f704745d182e4d38cab7e7485321d059"
+    },
+    "9": {
+      "address": "0xa2E3356610840701BDf5611a53974510Ae27E2e1",
+      "strategy": "0x7ca911e83dabf90c90dd3de5411a10f1a6112184"
+    },
+    "10": {
+      "address": "0xac3E018457B222d93114458476f3E3416Abbe38F",
+      "strategy": "0x8ca7a5d6f3acd3a7a8bc468a8cd0fb14b6bd28b6"
+    }
+  }
+}

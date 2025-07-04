@@ -1,0 +1,105 @@
+{
+    "avsAddress": "0xb3e069fd6dda251acbde09eda547e0ab207016ee",
+    "baseAsset": "0xbeac0eeeeeeeeeeeeeeeeeeeeeeeeeeeeeebeac0",
+    "chainId": 1,
+    "name": "Ungate InfiniRoute ETH Liquid Avs Token",
+    "symbol": "xUngate-ETH",
+    "proxyAddress": "0x0FC46110C19E3EBA484B7af9695Db74482589079",
+    "implementationAddress": "0x10e80155AE512cF3cE7B348198a77376df05045f",
+    "proxyAdminAddress": "0x45799DF9a8FaF9Cab8bE8a63C5d6D732bBB9Ef94",
+    "maxNodes": 10,
+    "deploymentBlock": 22845515,
+    "deploymentTimestamp": 1751628038729,
+    "contractDeployments": {
+      "implementation": {
+        "liquidTokenManager": {
+          "address": "0x8EEFC01E8B4C5Cb17ED7CcbC405794664552034c",
+          "block": 22845500,
+          "timestamp": 1751627863461
+        },
+        "stakerNode": {
+          "address": "0x41EA8F4F655cdEc8A8aD889e07b559aDee24798f",
+          "block": 22845505,
+          "timestamp": 1751627922122
+        },
+        "stakerNodeCoordinator": {
+          "address": "0x6e7609cb224C94F821655E924559504d9dD7Ad1E",
+          "block": 22845503,
+          "timestamp": 1751627900303
+        },
+        "tokenRegistryOracle": {
+          "address": "0xAb35C453010825b9efB26f08270C6B5995e7b55B",
+          "block": 22845496,
+          "timestamp": 1751627810233
+        }
+      },
+      "proxy": {
+        "liquidTokenManager": {
+          "address": "0xd457AD69ff4391Bc2d8c6Bc23c5BDb7d78476843",
+          "block": 22845508,
+          "timestamp": 1751627949287
+        },
+        "stakerNodeCoordinator": {
+          "address": "0x7E4096172635ab4DC7f48CCD693b15Ba5Cc48d04",
+          "block": 22845509,
+          "timestamp": 1751627958534
+        },
+        "tokenRegistryOracle": {
+          "address": "0x810442D50De4044B43520EEf5845Bb2fC7bBA64D",
+          "block": 22845507,
+          "timestamp": 1751627932263
+        }
+      }
+    },
+    "roles": {
+      "admin": "0xba375CAe9cEd62E5C2762F84ed324aef52486651",
+      "pauser": "0x60DB8De9a6705c9B36dcE25D631C5EAc0Ac24F4c",
+      "priceUpdater": "0xba375CAe9cEd62E5C2762F84ed324aef52486651"
+    },
+    "tokens": {
+      "0": {
+        "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+        "strategy": "0x1bee69b7dfffa4e2d53c2a2df135c388ad25dcd2"
+      },
+      "1": {
+        "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+        "strategy": "0x93c4b944d05dfe6df7645a86cd2206016c51564d"
+      },
+      "2": {
+        "address": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+        "strategy": "0x54945180db7943c0ed0fee7edab2bd24620256bc"
+      },
+      "3": {
+        "address": "0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa",
+        "strategy": "0x298afb19a105d59e74658c4c334ff360bade6dd2"
+      },
+      "4": {
+        "address": "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
+        "strategy": "0x9d7ed45ee2e8fc5482fa2428f15c971e6369011d"
+      },
+      "5": {
+        "address": "0xf951E335afb289353dc249e82926178EaC7DEd78",
+        "strategy": "0x0fe4f44bee93503346a3ac9ee5a26b130a5796d6"
+      },
+      "6": {
+        "address": "0x8c1BEd5b9a0928467c9B1341Da1D7BD5e10b6549",
+        "strategy": "0xae60d8180437b5c34bb956822ac2710972584473"
+      },
+      "7": {
+        "address": "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb",
+        "strategy": "0x13760f50a9d7377e4f20cb8cf9e4c26586c658ff"
+      },
+      "8": {
+        "address": "0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3",
+        "strategy": "0xa4c637e0f704745d182e4d38cab7e7485321d059"
+      },
+      "9": {
+        "address": "0xa2E3356610840701BDf5611a53974510Ae27E2e1",
+        "strategy": "0x7ca911e83dabf90c90dd3de5411a10f1a6112184"
+      },
+      "10": {
+        "address": "0xac3E018457B222d93114458476f3E3416Abbe38F",
+        "strategy": "0x8ca7a5d6f3acd3a7a8bc468a8cd0fb14b6bd28b6"
+      }
+    }
+  }
